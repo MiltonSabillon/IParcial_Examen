@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Value page:</strong>
+  <%= @value.value_page %>
+</p>
+
+<p>
+  <strong>Coments:</strong>
+  <%= @value.coments %>
+</p>
+
+<%= link_to 'Edit', edit_value_path(@value) %> |
+<%= link_to 'Back', values_path %>
